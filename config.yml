@@ -1,0 +1,9 @@
+persons:
+  "Alexander Weigl":
+    link: "https://formal.iti.kit.edu/weigl"
+  "Martin Fränzle":
+    link: "https://uol.de/socps/personen/prof-dr-martin-fraenzle"
+    image: "https://uol.de/f/2/_processed_/a/8/csm_2017_11_Martin_Fraenzle_2_742ee467bb.jpg"
+  "X":
+    link: "#"
+    image: "#"

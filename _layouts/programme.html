@@ -1,0 +1,298 @@
+{% extends "base.html" %}
+
+{% macro user(name) -%}
+{% if name is string %}
+<span class="chip">
+  <!--
+  {% if site.persons.get(name,None).image %}
+  <img src="{{site.persons.get(name,None).image}}" class="avatar avatar-sm">
+  {%endif%}
+   -->
+  <a href="{{site.persons.get(name,None).link}}">{{name}}</a>
+</span>
+{%else%}
+{%for n in name%}{{user(n)}}{%endfor%}
+{%endif%}
+{%- endmacro %}
+
+{% macro session(name, chair, slots) -%}
+<div class="session">
+  Session: {{name}} &mid;
+  Chair:  {{user(chair)}}
+</div>
+{%for s in slots%} {{talk(s)}}{%endfor%}
+{%- endmacro %}
+
+{% macro talk(slotId) -%}
+{% if slotId in bySlot %}
+{% set t = bySlot[slotId] %}
+<div class="slot {{t.meta.type}}" id="slot-{{slotId}}"/>
+  <!-- {{slotId}} -->
+  <span class="label">
+    <a href="#talk-{{slotId}}">{{ t.meta.title }}</a>
+  </span>
+  <br>
+  {{user(t.meta.author)}}
+</div>
+
+{% else %}
+<span class="bg-error label">
+  Slot {{slotId}} not assigned to a talk.
+</span>
+{% endif %}
+{%- endmacro %}
+
+{% block content %}
+
+<h1>Programme</h1>
+
+{{content|safe}}
+
+<details class="accordion" open>
+  <summary class="accordion-header">
+    <h2>
+      <i class="icon icon-arrow-right mr-1"></i>
+      Day 0
+    </h2>
+  </summary>
+  <div class="accordion-body">
+    <table class="table">
+      <tr>
+	<td>#</td>
+	<td>Topic</td>
+      </tr>
+
+      <tr>
+	<td>13:00--17:00</td>
+	<td>Unsolicited Social Event: Hiking in the Black Forrest</td>
+      </tr>
+      <tr>
+      <td>17:00--18:00</td>
+      <td>Registration
+      </td>
+
+      <tr>
+	<td>18:00--19:00</td>
+	<td>Dinner at Haus der Kirche</td>
+      </tr>
+      <tr>
+	<td>19:00--</td><td>Getting Together</td>
+      </tr>
+
+      <tr>
+	<td>20:00--21:00</td><td>Meeting of the Programme Board</td>
+      </tr>
+    </table>
+  </div>
+</details>
+
+<details class="accordion" open>
+  <summary class="accordion-header">
+    <h2>
+          <i class="icon icon-arrow-right mr-1"></i>
+	  Day 1
+    </h2>
+  </summary>
+  <div class="accordion-body">
+    <table class="table">
+      <tr>
+	<td>#</td>
+	<td>Topic</td>
+      </tr>
+
+      <tr>
+	<td>08:45--09:00</td>
+	<td> {{ talk(10) }}</td>
+      </tr>
+
+      <tr>
+	<td>09:00--10:30</td>
+	<td>
+	  {{ session("#1", "X", [11,12]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>10:30--11:00</td>
+	<td>Coffee</td>
+      </tr>
+
+      <tr>
+	<td>11:00 -- 12:30</td>
+	<td>
+	  {{ session("#2", "X", [13,14,15]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>12:30 -- 14:00</td>
+	<td>Lunch</td>
+      </tr>
+
+      <tr>
+	<td>14:00 -- 15:30</td>
+	<td>
+	  {{ session("#3", "X", [16,17,18]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>15:30 -- 16:00</td>
+	<td>Coffee</td>
+      </tr>
+
+      <tr>
+	<td>16:00 -- 18:00</td>
+	<td>
+	  {{ session("#4", "X", [19,110,111,112]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>18:30 --</td>
+	<td>Dinner at HdK </td>
+      </tr>
+    </table>
+  </div>
+</details>
+
+<details class="accordion" open>
+  <summary class="accordion-header">
+    <h2>
+      <i class="icon icon-arrow-right mr-1"></i>
+      Day 2
+    </h2>
+  </summary>
+  <div class="accordion-body">
+    <table class="table">
+      <tr>
+	<td>#</td>
+	<td>Topic</td>
+      </tr>
+
+      <tr>
+	<td>09:00--10:30</td>
+	<td>
+	  {{ session("#5", "X", [20,21]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>10:30--11:00</td>
+	<td>Coffee</td>
+      </tr>
+
+      <tr class="track-key">
+	<td>11:00 -- 12:30</td>
+	<td>	{{ session("#6a", "X", [201,202,203]) }}</td>
+      </tr>
+
+      <tr class="track-keymaera">
+	<td>11:00 -- 12:30</td>
+	<td>	{{ session("#6b", "X", [210,211,212]) }}</td>
+      </tr>
+
+      <tr class="break">
+	<td>12:30 -- 14:00</td>
+	<td>Lunch</td>
+      </tr>
+
+      <tr class="track-key">
+	<td>14:00 -- 15:30</td>
+	<td>	{{ session("#7a", "X", [204,205,206]) }}</td>
+      </tr>
+
+      <tr class="track-keymaera">
+	<td>14:00 -- 15:30</td>
+	<td>	{{ session("#7b", "X", [214,215,216]) }}</td>
+      </tr>
+
+      <tr class="break">
+	<td>15:30 -- 16:00</td>
+	<td>Coffee</td>
+      </tr>
+
+      <tr class="track-key">
+	<td>16:00 -- 18:00</td>
+	<td>	{{ session("#7a", "X", [207,208,209,2010]) }}</td>
+      </tr>
+
+      <tr class="track-keymaera">
+	<td>16:00 -- 18:00</td>
+	<td>{{ session("#7b", "X", [217,218,219,2110]) }}</td>
+      </tr>
+
+      <tr class="break">
+	<td>18:30 --</td>
+	<td>Dinner outside</td>
+      </tr>
+    </table>
+  </div>
+</details>
+
+
+<details class="accordion" open>
+  <summary class="accordion-header">
+    <h2>
+      <i class="icon icon-arrow-right mr-1"></i>
+      Day 3
+    </h2>
+  </summary>
+  <div class="accordion-body">
+    <table class="table">
+      <tr>
+	<td>#</td>
+	<td>Topic</td>
+      </tr>
+
+      <tr>
+	<td>09:00--10:30</td>
+	<td>
+	  {{ session("#8", "X", [30,31]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>10:30--11:00</td>
+	<td>Coffee</td>
+      </tr>
+
+      <tr>
+	<td>11:00 -- 12:30</td>
+	<td>
+	  {{ session("#8", "X", [32,33,34,35]) }}
+	</td>
+      </tr>
+
+      <tr class="break">
+	<td>12:30 -- 14:00</td>
+	<td>Lunch</td>
+      </tr>
+    </table>
+  </div>
+</details>
+
+<h2>Talks</h2>
+
+{% for t in talks %}
+
+<div>
+  <h3 id="talk-{{t.meta.slot}}"><a href="#slot-{{t.meta.slot}}">{{t.meta.title}}</a>
+    {% if t.meta.type == 'invited' -%}
+    <span class="label bg-error">Invited Talk</span>
+    {%elif t.meta.type == 'regular' -%}
+    <span class="label bg-primary">Invited Talk</span>
+    {%-endif%}
+
+  </h3>
+  <h4>{{user(t.meta.author)}}</h4>
+
+  <p>
+    {{t.content | safe }}
+  </p>
+</div>
+
+{% endfor %}
+
+
+{% endblock %}
