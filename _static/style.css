@@ -1,6 +1,7 @@
 main {
     padding:5em;
-    width:auto;
+    width:80em;
+    margin:auto;
 }
 
 .navbar {  background: rgb(25,55,25); padding:1ex;}
