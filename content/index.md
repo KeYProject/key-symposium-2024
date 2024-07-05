@@ -13,7 +13,7 @@ The complete address is:
 
 ## Social Event
 
-On Monday July 29th, we have be an optional social event before the official start. <a href="mailto:kirsten@kit.edu">Michael Kirsten</a> organizes a hiking trip in the black forest with medium difficult, ca. 9km and 3h but requires public local transport to get to the starting point. The hiking group will meet at **1 pm at the venue** to drop their luggage. Please mark your interest during the registration to stay informed.
+On Monday, July 29th, we have an optional social event before the official start. <a href="mailto:kirsten@kit.edu">Michael Kirsten</a> organizes a hiking trip in the black forest with medium difficulty of ca. 9km taking about 3 hours, that requires public local transport to get to the starting point. The hiking group will meet at **1 pm at the venue** to drop their luggage. Please mark your interest during the registration to stay informed.
 
 There will be (depending on the weather) an unsolicitious light hike on the second evening (Tuesday) to the monastery ruins of Frauenalb. Roughly 6km one way, downhill, you can cheat by using the local tram.
 
