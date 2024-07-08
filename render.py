@@ -74,7 +74,10 @@ def render_program():
     for fn in Path("talks/").rglob("*.md"):
         t = _read(fn)
         talks.append(t)
-        bySlot[t.meta['slot']] = t
+        try:
+            bySlot[t.meta['slot']] = t
+        except:
+            print(f"No slot given in {fn}")
 
     with open(PUBLIC/"programme.html", 'w') as fh:
         fh.write(template.render(content=p.content, page=p.meta, talks=talks, bySlot=bySlot, site=SITE))

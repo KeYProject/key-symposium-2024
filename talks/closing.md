@@ -4,7 +4,8 @@ author:
   - "Bernhard Beckert"
   - "Reiner Hähnle"
 title: "Closing Cerenomy"
-slot: 35
+slot: 36
+length: 10
 ---
 
 Closing cerenomy
