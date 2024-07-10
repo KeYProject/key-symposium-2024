@@ -64,10 +64,10 @@ def create_break(title, start, minutes):
     event['location'] = vText('Bad Herrenalb, Germany')
     cal.add_component(event)
 
-day0 = lambda x: f'2024-07-29T{x}:00'
-day1 = lambda x: f'2024-07-30T{x}:00'
-day2 = lambda x: f'2024-07-31T{x}:00'
-day3 = lambda x: f'2024-08-01T{x}:00'
+day0 = lambda x: f'2024-07-29T{x}:00+02:00'
+day1 = lambda x: f'2024-07-30T{x}:00+02:00'
+day2 = lambda x: f'2024-07-31T{x}:00+02:00'
+day3 = lambda x: f'2024-08-01T{x}:00+02:00'
 
 C_SOCIAL = 'blue'
 C_BREAK = 'grey'
