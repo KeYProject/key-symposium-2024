@@ -1,5 +1,5 @@
 ---
-author: "adele.veschetti@tu-darmstadt.de"
+author: "Adele Veschetti"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "Common Track"
 title: "SmartML: Enhancing Security and Reliability in Smart Contract Development"

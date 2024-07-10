@@ -1,5 +1,5 @@
 ---
-author: "ungzb@student.kit.edu"
+author: "Anne Hoff"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "Common Track"
 title: "Formal verification of verifiable, traceable and secret online elections"

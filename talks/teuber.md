@@ -1,5 +1,5 @@
 ---
-author: "teuber@kit.edu"
+author: "Samuel Teuber"
 kind: "Short or Regular Talk (please let me know which one)"
 track: "Common Track"
 title: "Heterogeneous Dynamic Logic"

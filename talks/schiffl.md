@@ -1,5 +1,5 @@
 ---
-author: "jonas.schiffl@kit.edu"
+author: "Jonas Schiffl"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "Common Track"
 title: "What is Live? Temporal Properties in Smart Contract Applications"
