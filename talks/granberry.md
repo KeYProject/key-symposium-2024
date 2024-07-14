@@ -3,7 +3,7 @@ author: "George Granberry"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeY-only Track"
 title: "Specify What? Enhancing Neural Specification Synthesis by Symbolic Methods"
-length: 30
+length: 25
 slot: 17
 ---
 

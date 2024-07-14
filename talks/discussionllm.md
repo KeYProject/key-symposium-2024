@@ -1,8 +1,9 @@
 ---
-author: "Philipp Kern"
+author: "Bernhard Beckert"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track, KeY-only Track"
-title: "TBD: Sth about NN Verification (probably verification of LSTMs)"
+title: "Discussion"
+slot: 1999
 length: 30
 ---
 

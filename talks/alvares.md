@@ -3,7 +3,7 @@ author: "Guilherme Silva"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeY-only Track"
 title: "Modeling Solidity data types in SolidiKeY"
-slot: 32
+slot: 193
 length: 30
 ---
 

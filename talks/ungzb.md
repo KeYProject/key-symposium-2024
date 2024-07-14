@@ -3,7 +3,7 @@ author: "Anne Hoff"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "Common Track"
 title: "Formal verification of verifiable, traceable and secret online elections"
-slot:  193
+slot:  301
 length: 15
 ---
 

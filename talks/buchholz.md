@@ -4,7 +4,7 @@ kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeY-only Track"
 title: "Transferring proof obligations from KeY to Isabelle/HOL"
 slot: 31
-length: 15/30 
+length: 15
 ---
 
 *Can be reduced to short talk if necessary*

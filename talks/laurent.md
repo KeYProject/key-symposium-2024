@@ -3,7 +3,7 @@ author: "Jonathan Laurent"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track"
 title: "[Temporary Title] Few-Shot Programming: a new paradigm for programming with large language models"
-length: 30
+length: 25
 slot: 18
 ---
 

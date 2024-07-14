@@ -2,19 +2,17 @@
 
 import os
 import os.path
-import sys
 import shutil
-import markdown2
-import yaml
-
-from pathlib import Path
-from render import PageRendered, _read
-
-from icalendar import Calendar, Event, vCalAddress, vText
+import sys
 from datetime import datetime, timedelta
 from pathlib import Path
-import os
+
+import markdown2
 import pytz
+import yaml
+from icalendar import Calendar, Event, vCalAddress, vText
+
+from render import PageRendered, _read
 
 # init the calendar
 cal = Calendar()

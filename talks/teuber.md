@@ -3,7 +3,7 @@ author: "Samuel Teuber"
 kind: "Short or Regular Talk (please let me know which one)"
 track: "Common Track"
 title: "Heterogeneous Dynamic Logic"
-length: 45/2
+length: 22
 slot: 21
 ---
 

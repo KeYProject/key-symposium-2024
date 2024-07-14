@@ -3,7 +3,7 @@ author: "Richard Bubel"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeY-only Track"
 title: "Verification of the Norway Election Algorithm"
-slot:  191
+slot:  118
 length: 30
 ---
 

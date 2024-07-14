@@ -30,6 +30,9 @@ class PageRendered:
         self.meta = m
         self.content = c
 
+
+
+
 def _read(fn):
     with open(fn) as handle:
         meta_str = ""
@@ -78,6 +81,8 @@ def render_program():
             bySlot[t.meta['slot']] = t
         except:
             print(f"No slot given in {fn}")
+
+    talks = sorted(talks, key=lambda x: x.meta.get('order', 50))
 
     with open(PUBLIC/"programme.html", 'w') as fh:
         fh.write(template.render(content=p.content, page=p.meta, talks=talks, bySlot=bySlot, site=SITE))

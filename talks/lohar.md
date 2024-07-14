@@ -3,7 +3,7 @@ author: "Debasmita Lohar"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track"
 title: "Towards Practical Analysis and Optimization for Finite-Precision"
-length: 45/2
+length: 22
 slot: 22
 ---
 

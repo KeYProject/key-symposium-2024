@@ -3,7 +3,7 @@ author: "Maximilian Kodetzki"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track, KeY-only Track"
 title: "Towards AI-assisted Correctness-by-Construction Software Development"
-length: 30
+length: 25
 slot: 16
 ---
 
