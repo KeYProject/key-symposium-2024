@@ -3,7 +3,7 @@ author: "Tabea Bordis"
 kind: "Either Regular or Short. Whatever fits best into the program."
 track: "Common Track"
 title: "Free Facts: An Alternative to Inefficient Axioms in Dafny"
-slot:  13
+slot:  15
 length: 30
 ---
 
