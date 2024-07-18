@@ -1,5 +1,5 @@
 ---
-author: "Aditi Akabra"
+author: "Aditi Kabra"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "KeYmaera Track"
 title: "Control Envelope Synthesis in KeYmaera X"
