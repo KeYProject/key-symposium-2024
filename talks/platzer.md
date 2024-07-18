@@ -1,5 +1,5 @@
 ---
-author: "Andre Platzer"
+author: "André Platzer"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeYmaera Track"
 title: "Differential Hybrid Games"
