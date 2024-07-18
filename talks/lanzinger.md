@@ -1,5 +1,5 @@
 ---
-author: "Floran Lanzinger"
+author: "Florian Lanzinger"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track, KeY-only Track"
 title: "Types as Contracts: Scalable and Precise Verification"
