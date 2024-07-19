@@ -13,7 +13,7 @@ The complete address is:
 
 ## Social Event
 
-On Monday, July 29th, we have an optional social event before the official start. <a href="mailto:kirsten@kit.edu">Michael Kirsten</a> organizes a hiking trip in the black forest with medium difficulty of ca. 9km taking about 3 hours, that requires public local transport to get to the starting point. The hiking group will meet at **1 pm at the venue** to drop their luggage. Please mark your interest during the registration to stay informed.
+On Monday, July 29th, we have an optional social event before the official start. <a href="mailto:kirsten@kit.edu">Michael Kirsten</a> organizes a hiking trip in the black forest with medium difficulty of ca. 9km taking about 3 hours, that requires public local transport to get to the starting point. The hiking group will meet at **12:35 pm at the venue** to drop their luggage. Please mark your interest during the registration to stay informed.
 
 There will be (depending on the weather) an unsolicitious light hike on the second evening (Tuesday) to the monastery ruins of Frauenalb. Roughly 6km one way, downhill, you can cheat by using the local tram.
 
@@ -33,7 +33,7 @@ There will be (depending on the weather) an unsolicitious light hike on the seco
 The symposium starts on the evening of July, 29th and ends after lunch 14:00 on Aug, 1st.
 
 * Arrival Day: 29.07.2024, 
-  * 13:00, Social Event
+  * 12:35, Social Event
   * 17:00, Start of Registration. 
   * 18:00, Dinner at Haus der Kirche.
   * 20:00 Getting Together, and Meeting of the Programme Board
