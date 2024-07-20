@@ -5,6 +5,7 @@ track: "Common Track"
 title: "Free Facts: An Alternative to Inefficient Axioms in Dafny"
 slot:  15
 length: 30
+order: 63
 ---
 
 Formal software verification relies on properties of functions and built-in operators. Unless these properties are handled directly by decision procedures, an automated verifier includes them in verification conditions by supplying them as universally quantified axioms or theorems. The use of quantifiers sometimes leads to bad performance, especially if automation causes the quantifiers to be instantiated many times.

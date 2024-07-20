@@ -1,0 +1,138 @@
+$color1: rgb(254, 243, 226);
+$color2: rgb(190, 198, 160);
+$color3: rgb(112, 136, 113);
+$color4: rgb(96, 102, 118);
+
+$brown1: rgb(248, 244, 225);
+$brown2: rgb(175, 143, 111);
+$brown3: rgb(116, 81, 45);
+$brown4: rgb(84, 51, 16);
+
+/*
+rgb(108, 148, 111)
+rgb(255, 211, 90)
+rgb(255, 168, 35)
+rgb(220, 0, 131)
+*/
+
+$social: darken(rgb(108, 148, 111),25);
+$invitedTalk: rgb(220, 0, 131);
+$break: rgb(108, 148, 111);
+$ltalk:rgb(255, 211, 90);
+$rtalk:rgb(255, 168, 35);
+
+main {
+    padding:5em;
+    min-width:40em;
+    max-width:80em;
+    margin:auto;
+}
+
+.navbar {  background: $color3; padding:1ex;}
+.navbar a, .navbar .btn.btn-link {   color: white; }
+.hero {
+    background: rgb(25,55,25);
+    color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+}
+
+ul {
+    list-style:disc !important;
+}
+
+.track-key {
+    background: $color2;
+}
+
+.track-keymaera {
+    background: rgb(180,180,200);
+}
+
+
+details {
+    margin-bottom:2em;
+}
+
+.table tr td:first-child,
+.table tr th:first-child
+{
+    text-align: right;
+    border-bottom-width: 0pt;
+    font-weight:bold;
+    width:30%;
+}
+
+$bsz: 3ex;
+
+span.session {
+    font-weight:bold;
+}
+
+span.session.closed:before {
+    content:"🔒";
+}
+
+.slot {
+    padding:2ex; margin:0;
+
+    border-left: $bsz solid white;
+
+
+    :target {
+	border-top: 2px solid red;
+	border-bottom: 2px solid red;
+    }
+
+    &.L60, &.invited { /* invited talks */
+	border-left: $bsz solid $invitedTalk;
+	font-weight:bold;
+    }
+    &.social { border-left: $bsz solid $social; }
+    &.break   {
+	border-left: $bsz solid $break;
+	background: --darker(160,25,25,0.1);
+    }
+
+    &.L30, &.L25 { border-left: $bsz solid $rtalk; }
+    &.L15 { border-left: $bsz solid $ltalk; }
+
+    &.admin {
+	border-left: $bsz solid #444;
+    }
+}
+
+
+summary {
+    font-size:100%;
+}
+
+details.day > summary {
+    font-size:150%;
+    font-weight: bold;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+}
+
+details.day {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+.talks {
+    margin-left:10em;
+    margin-right:10em;
+    width:auto;
+}
+
+.talk-entry {
+    border: 1px solid #5755d9;
+    margin-top:3ex;
+    padding: 2ex;
+}
+
+.talks img {
+    width:100%;
+}

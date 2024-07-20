@@ -5,6 +5,7 @@ track: "KeY-only Track"
 title: "Modeling Solidity data types in SolidiKeY"
 slot: 193
 length: 30
+order: 23
 ---
 
 Solidity, the main programming language for smart contracts in cryptocurrencies, is being formalized in KeY.

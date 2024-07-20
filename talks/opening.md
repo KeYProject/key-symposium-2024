@@ -4,6 +4,7 @@ title: "Opening Cerenomy"
 slot: 10
 length: 15
 order: 10
+type: admin
 ---
 
 Open cerenomy

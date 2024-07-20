@@ -5,6 +5,7 @@ track: "KeY-only Track"
 title: "Verification of the Norway Election Algorithm"
 slot:  118
 length: 30
+order: 33
 ---
 
 We present the verification of the Norway Election Algorithm using the KeY Tool. We report on the approach and experiences.

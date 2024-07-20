@@ -88,6 +88,14 @@ def render_program():
         fh.write(template.render(content=p.content, page=p.meta, talks=talks, bySlot=bySlot, site=SITE))
 
 
+def render_css():
+    import sass
+    content = sass.compile(dirname=("_static","public"), output_style="compressed")
+    print(content)
+    #with open(PUBLIC/"style.css", 'w') as fh:
+    #    fh.write(content)
+
+
 
 def main():
     if PUBLIC.exists():
@@ -96,6 +104,7 @@ def main():
 
     os.system("cp -R _static/* public")
 
+    render_css()
     render_index()
     render_registration()
     render_locations()

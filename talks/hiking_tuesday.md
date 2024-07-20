@@ -3,6 +3,8 @@ author: "Organization by Jonas Schiffl"
 title: "Paseo to Frauenalb"
 slot: 998
 type: social
+length: 120
+order: 50
 ---
 
 On Tuesday evening and good weather, there will be a light walk (paseo, Spaziergang) to the ruined abbey of Frauenalb. Frauenalb is a smaller village two train station before Bad Herrenalb. You have the possibility to *cheat* by using the tram (most probably we will go down the hill and come back with the tram). Of course, this is not mandatory, and of course the weather should be suitable for the walk. The distance is roughly 6km w/o steep up and downs.

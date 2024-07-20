@@ -5,5 +5,6 @@ track: "Common Track, KeY-only Track"
 title: "Observational Encapsulation: Abstracting Datastructures on the Heap into \"Singularities\""
 slot: 115
 length: 30
+order: 35
 ---
 

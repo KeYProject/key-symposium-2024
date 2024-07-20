@@ -5,6 +5,7 @@ track: "Common Track"
 title: "[Temporary Title] Few-Shot Programming: a new paradigm for programming with large language models"
 length: 25
 slot: 18
+order: 74
 ---
 
 [Temporary abstract] Large-language models such as GPT4 have proved surprisingly good at solving a wide range of tasks from a handful of examples and at generating structured data such as programs or mathematical formulas. Yet, their lack of reliability puts a limit on their ability to solve large problems that require many steps of reasoning.

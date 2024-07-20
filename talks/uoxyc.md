@@ -5,5 +5,6 @@ track: "Common Track"
 title: "Formal Verification of Symmetry Properties in Distance Rationalizable Voting Rules"
 slot:  34
 length: 15
+order: 103
 ---
 

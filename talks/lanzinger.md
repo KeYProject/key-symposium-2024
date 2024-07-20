@@ -5,6 +5,7 @@ track: "Common Track, KeY-only Track"
 title: "Types as Contracts: Scalable and Precise Verification"
 length: 30
 slot: 114
+order: 35
 ---
 
 Refinement type systems allow programmers to use logical conditions to constrain admissible values of variables. However, most practical refinement type systems limit the expressiveness in the logic to remain automatically decidable and easy to use. Deductive verification tools, on the other hand, often come with expressive specification languages and powerful proof calculi that require interaction and scale badly with the program size.

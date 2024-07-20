@@ -1,6 +1,7 @@
 main {
     padding:5em;
-    width:80em;
+    min-width:40em;
+    max-width:80em;
     margin:auto;
 }
 
@@ -15,21 +16,76 @@ main {
 }
 
 
-.track-key {
-    background: rgba(0,255,0,0.3);
-}
-
-.track-keymaera {
-    background: rgba(0,0,255,0.3);
-}
-
-
-.break { background: #666; color:white;}
-
-
-details {margin-bottom:2em;}
-
-.slot:target { border: 1px solid red;}
-
 
 ul { list-style:disc !important;}
+
+
+ .track-key {
+   background: rgba(0,255,0,0.2);
+ }
+
+ .track-keymaera {
+   background: rgba(0,0,255,0.2);
+ }
+
+
+ details {margin-bottom:2em;}
+
+ .slot:target { border: 1px solid red;}
+
+
+ .table tr td:first-child,
+ .table tr th:first-child
+ {
+   text-align: right;
+   border-bottom-width: 0pt;
+ }
+
+ .slot {
+   padding:2ex; margin:0;
+ }
+
+ .L15  {}
+
+ p.L60, p.invited { /* invited talks */
+   background: #5755d9;
+   color:white;
+   font-weight:bold;
+ }
+
+ .L60 a { color:white;  }
+ .L60 .chip a { color:black;  }
+
+ .social.slot { border-left: 3px solid green; }
+ .break.slot   { border-left: 3px solid orange;
+   background: rgba(160,25,25,0.1); color:;
+ }
+
+ summary {
+   font-size:100%;
+ }
+
+ details.day > summary {
+   font-size:150%;
+   font-weight: bold;
+   margin: -0.5em -0.5em 0;
+   padding: 0.5em;
+ }
+
+ details.day {
+   border: 1px solid #aaa;
+   border-radius: 4px;
+   padding: 0.5em 0.5em 0;
+ }
+
+ .talks {
+   margin-left:10em;
+   margin-right:10em;
+   width:auto;
+ }
+
+ .talk-entry {
+   border: 1px solid #5755d9;
+   margin-top:3ex;
+   padding: 2ex;
+ }

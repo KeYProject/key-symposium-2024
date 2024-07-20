@@ -3,8 +3,9 @@ author: "Samuel Teuber"
 kind: "Short or Regular Talk (please let me know which one)"
 track: "Common Track"
 title: "Heterogeneous Dynamic Logic"
-length: 22
+length: 30
 slot: 21
+order: 105
 ---
 
 The novel framework of Heterogeneous Dynamic Logic presented in this talk allows the systematic combination of multiple program reasoning theories in dynamic logic, similar to the framework of satisfiability modulo theories (SMT) that allows the systematic combination of multiple theories in first-order logic.

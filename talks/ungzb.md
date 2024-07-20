@@ -5,6 +5,7 @@ track: "Common Track"
 title: "Formal verification of verifiable, traceable and secret online elections"
 slot:  301
 length: 15
+order: 102
 ---
 
 Online elections are especially vulnerable to external and internal threats compromising the privacy and integrity of the election. Thus, a voting system for online elections should enable the detection and correction of any errors in the election result — a property called strong software independence.
