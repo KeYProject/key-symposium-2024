@@ -84,7 +84,7 @@ create_break('Coffee Break', day2('10:30'), 30)
 create_break('Lunch', day2('12:30'), 30)
 create_break('Coffee Break', day2('15:30'), 30)
 #
-create_break('Coffee Break', day3('10:30'), 30)
+create_break('Coffee Break', day3('10:45'), 30)
 create_break('Lunch', day3('12:30'), 30)
 
 define_slot(10, day1('08:45'), 15)
@@ -92,13 +92,10 @@ define_slot(11, LE, 60)
 define_slot(12, LE, 15)
 define_slot(123, LE, 15)
 
-define_slot(113, day1('11:00'), 30)
-define_slot(114, LE, 30)
-define_slot(115, LE, 30)
-
-define_slot(213, day1('11:00'), 30)
-define_slot(214, LE, 30)
-define_slot(215, LE, 30)
+define_slot(19, day1('11:00'), 30)
+define_slot(191, LE, 15)
+define_slot(192, LE, 15)
+define_slot(193, LE, 30)
 
 define_slot(116, day1('14:00'), 30)
 define_slot(117, LE, 30)
@@ -108,15 +105,20 @@ define_slot(216, day1('14:00'), 30)
 define_slot(217, LE, 30)
 define_slot(218, LE, 30)
 
-define_slot(19, day1('16:00'), 30)
-define_slot(191, LE, 30)
-define_slot(192, LE, 30)
-define_slot(193, LE, 30)
+
+define_slot(113, day1('16:00'), 30)
+define_slot(114, LE, 30)
+define_slot(115, LE, 30)
+
+define_slot(219, day1('16:00'), 15)
+define_slot(214, LE, 30)
+define_slot(213, LE, 30)
+define_slot(215, LE, 30)
 
 #####################################
 define_slot(20, day2('09:00'), 60)
-define_slot(21, LE, 15)
-define_slot(22, LE, 15)
+define_slot(22, LE, 30)
+define_slot(33, LE, 15)
 
 define_slot(13, day2('11:00'), 30)
 define_slot(14, LE, 30)
@@ -126,22 +128,25 @@ define_slot(207, day2('14:00'), 30)
 define_slot(208, LE, 30)
 define_slot(209, LE, 30)
 
-define_slot(16, day2('16:00'), 30)
-define_slot(17, LE, 30)
-define_slot(18, LE, 30)
-define_slot(199, LE, 30)
+define_slot(16, day2('16:00'), 25)
+define_slot(17, LE, 25)
+define_slot(18, LE, 25)
+define_slot(199, LE, 15)
+define_slot(1999, LE, 30)
 
 
 #####################################
 define_slot(30, day3('09:00'), 60)
-define_slot(31, LE, 30)
+define_slot(31, LE, 15)
+define_slot(301, LE, 15)
+define_slot(34, LE, 15)
 #define_slot(22, LE, 15)
 
-define_slot(32, day3('11:00'), 15)
-define_slot(33, LE, 15)
-define_slot(34, LE, 15)
+define_slot(32, day3('11:10'), 15)
+define_slot(21, LE, 15)
 define_slot(35, LE, 15)
-define_slot(36, LE, 10)
+
+define_slot(36, day3('12:20'), 10)
 
 #from pprint import pprint 
 #pprint(SLOTS_META)

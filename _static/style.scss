@@ -38,9 +38,12 @@ main {
     background-position: right bottom;
 }
 
+
 ul {
     list-style:disc !important;
 }
+
+ol { list-style: numeric !important;}
 
 .track-key {
     background: $color2;
@@ -122,9 +125,8 @@ details.day {
 }
 
 .talks {
-    margin-left:10em;
-    margin-right:10em;
-    width:auto;
+    max-width: 60em;
+    min-width: 30em;
 }
 
 .talk-entry {
