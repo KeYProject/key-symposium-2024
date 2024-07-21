@@ -73,7 +73,7 @@ C_INVITED = 'red'
 C_KEY = 'turkoise'
 C_KEYM = 'lightblue'
 
-define_slot(999, day0('13:00'), 60*5, C_SOCIAL)
+define_slot(999, day0('12:35'), 60*5, C_SOCIAL)
 define_slot(998, day1('19:00'), 120,  C_SOCIAL)
 
 create_break('Coffee Break', day1('10:30'), 30)
