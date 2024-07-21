@@ -3,6 +3,25 @@ title: ""
 author: Alexander Weigl
 ---
 
+## The KeY symposium 
+
+The KeY Symposium is an annual workshop organized by the KeY project, where participants discuss recent developments and future directions related to formal methods and software verification1. It brings together researchers, practitioners, and enthusiasts interested in KeY, a formal verification tool for Java programs. 
+
+The KeY Symposium typically covers a range of topics related to formal methods and software verification. Some common themes include:
+
+* Formal Verification Techniques: Discussions on deductive verification, theorem proving, model checking, and other formal methods used to verify software correctness.
+* Case Studies: Real-world examples where Formal Methods (esp. KeY) has been successfully applied to verify software systems.
+* KeY Tool: Presentations about the KeY tool itself, its features, and practical applications in Java program verification.
+* Integration with IDEs: Exploring how KeY integrates with popular Integrated Development Environments (IDEs) for seamless verification workflows.
+* Challenges and Future Directions: Identifying research challenges and discussing potential improvements or extensions to the field of program verification.
+
+## Invited Speaker
+
+* Dirk Beyer, LMU
+* Jasmin Blanchette, LMU
+* Martin Fränzle, U Oldenburg
+* Joost-Pieter Katoen, RWTH
+
 ## Venue and Accommodation
 
 ![Bad Herrenalb](https://www.schwarzwald-aktuell.eu/wp-content/uploads/2021/10/bad_herrenalb_bg-1024x518.jpg)
