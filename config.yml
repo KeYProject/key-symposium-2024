@@ -7,7 +7,7 @@ persons:
 
   "Noah Abou El Wafa":
     mail: "noah.abouelwafa@kit.edu"
-    link: ""
+    link: "https://www.math.cmu.edu/~nabouelw/"
   "Wolfgang Ahrendt":
     mail: "ahrendt@chalmers.se"
     link: ""
@@ -82,7 +82,7 @@ persons:
     link: "https://formal.iti.kit.edu/lanzinger"
   "Jonathan Laurent":
     mail: "jonathan.laurent@kit.edu"
-    link: ""
+    link: "https://www.cs.cmu.edu/~jlaurent/"
   "Debasmita Lohar":
     mail: "debasmita.lohar@kit.edu"
     link: "https://formal.iti.kit.edu/lohar"
@@ -106,10 +106,10 @@ persons:
     link: "https://symbolaris.org"
   "Enguerrand Prebet":
     mail: "enguerrand.prebet@kit.edu"
-    link: ""
+    link: "https://enguerrandprebet.github.io/"
   "Long Qian":
     mail: "longq@andrew.cmu.edu"
-    link: ""
+    link: "https://longqianql.github.io/"
   "Marco Scaletta":
     mail: "scaletta@cs.tu-darmstadt.de"
     link: ""
