@@ -2,14 +2,14 @@
 author: "Jonathan Laurent"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "Common Track"
-title: "[Temporary Title] Few-Shot Programming: a new paradigm for programming with large language models"
+title: "Oracular Programming"
 length: 25
 slot: 18
 order: 74
 ---
 
-[Temporary abstract] Large-language models such as GPT4 have proved surprisingly good at solving a wide range of tasks from a handful of examples and at generating structured data such as programs or mathematical formulas. Yet, their lack of reliability puts a limit on their ability to solve large problems that require many steps of reasoning.
+Large Language Models have proved surprisingly effective at solving a wide range of tasks from just a handful of examples. However, their lack of reliability limits their capacity to tackle large problems that require many steps of reasoning. In response, researchers have proposed advanced pipelines that leverage domain-specific knowledge to chain smaller prompts, provide intermediate feedback and improve performance through search. However, the current complexity of writing, debugging, tuning and maintaining such pipelines has put a bound on their sophistication.
 
-Our work proposes a new programming paradigm called “few-shot programming”, where domain ex- perts write high-level problem-solving strategies in the form of nondeterministic programs whose choice-points are annotated with examples. This induces a search space that can be explored by querying large-language models for guidance. In addition, once enough examples are provided by humans for a strategy to bootstrap, this strategy can self-improve via an AlphaZero-like scheme, by solving a series of problems with search and extracting annotations from successful solutions.
+We propose a new paradigm for programming with LLMs called _oracular programming_. In this paradigm, domain experts are invited to define high-level problem-solving strategies as nondeterministic programs. Such programs are reified into infinite search trees for LLM oracles to navigate. A separate _demonstration language_ allows annotating choice points with examples, while keeping them grounded and synchronized as the associated program evolves.
 
-In this talk, we’ll introduce the “few-shot programming“ paradigm and demonstrate an early implementation prototype on an invariant-synthesis case study.
+In this talk, we motivate and explain the key concepts of oracular programming. We introduce Delphyne, a framework for oracular programming based on Python, and discuss the associated tooling. We demonstrate our prototype on a preliminary invariant-synthesis case study. We hope that our proposed framework can foster research on intersymbolic AI and facilitate creative combinations of LLMs with symbolic provers.
