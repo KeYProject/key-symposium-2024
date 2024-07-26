@@ -17,6 +17,8 @@ persons:
   "Joshua Bachmeier":
     mail: "j.bachmeier@fzi.de"
     link: ""
+  "Dirk Beyer":
+    link: "https://www.sosy-lab.org/people/beyer/"
   "Bernhard Beckert":
     mail: "beckert@kit.edu"
     link: "https://formal.iti.kit.edu/beckert"

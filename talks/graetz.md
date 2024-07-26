@@ -8,11 +8,10 @@ length: 30
 order: 62
 ---
 
+More than 15 years ago, a paper ""Better bug reporting with better privacy"" solved the two problems of automatic bug reports: Specifically, memory dumps might not be sufficient to reconstruct an issue/crash while leaking private information. However, their approach of generating new input-data had limited applicability.
 
-More than 15 years ago, a paper "Better bug reporting with better privacy" solved the two problems of automatic bug reports: Specifically, memory dumps might not be sufficient to reconstruct an issue/crash while leaking private information.
+Our tool instruments the source code to record (with low overhead) a compressed control flow trace, which can be directly added to a bug-report (instead of input-data or memory dumps). The trace format is designed to be adaptable to different programming languages.
 
-In this talk, we will follow a related approach with improved overhead and portability: Our tool instruments the source code to record (with low overhead) a compressed control flow trace, which can be directly added to a bug-report. The trace format is designed to be adaptable to different programming languages.
+In the second part, these traces are used not only by visualizing the control-flow in the code: On the developers side, we can debug a trace using symbolic execution (we call that retracing). Our current implementation works on top of either KeY, CBMC or angr.
 
-In the second part, we see what a developer can do with these traces apart from visualizing in the source code: We use symbolic execution to retrace (partial program run reconstruction), to inspect variable values and to check against specifications/assertions. Our current implementation works on top of either KeY, CBMC or angr.
-
-We also see how to record a trace with KeY, useful for debugging a KeY-proof and restricting it to a single control flow (and then retrying, i.e., with different proof strategy settings).
+We also see how to record a trace with KeY and how to restrict symbolic execution (or a part of it) to a single control flow, to avoid loop invariants and path explosion.
