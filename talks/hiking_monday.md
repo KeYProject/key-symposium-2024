@@ -29,4 +29,4 @@ For those who want to get some panoramic views of the area and, if weather permi
 
 According to my current list, we will be 21 people on the hike. In case you know of anybody who wants to join, but who forgot to tick the according box in the registration form, please pass this information on and give me a quick notification.
 
-In case of any questions or concerns or things we should know, please do not hesitate to email [Michael Kirsten](kirsten@kit.edu).
+In case of any questions or concerns or things we should know, please do not hesitate to email [Michael Kirsten](mailto:kirsten@kit.edu).
