@@ -4,6 +4,12 @@ persons:
   "Martin Fränzle":
     link: "https://uol.de/socps/personen/prof-dr-martin-fraenzle"
     image: "https://uol.de/f/2/_processed_/a/8/csm_2017_11_Martin_Fraenzle_2_742ee467bb.jpg"
+  "Jasmin Blanchette":
+    mail: "katoen@cs.rwth-aachen.de"
+    link: "https://www.tcs.ifi.lmu.de/mitarbeiter/jasmin-blanchette_de.html"
+  "Joost-Pieter Katoen":
+    mail: "jasmin.blanchette@ifi.lmu.de"
+    link: "https://moves.rwth-aachen.de/people/katoen/"
 
   "Noah Abou El Wafa":
     mail: "noah.abouelwafa@kit.edu"
