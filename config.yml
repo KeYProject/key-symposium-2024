@@ -10,13 +10,13 @@ persons:
     link: "https://www.math.cmu.edu/~nabouelw/"
   "Wolfgang Ahrendt":
     mail: "ahrendt@chalmers.se"
-    link: ""
+    link: "https://www.cse.chalmers.se/~ahrendt/"
   "Thomas Baar":
     mail: "thomas.baar@htw-berlin.de"
-    link: ""
+    link: "https://www.htw-berlin.de/hochschule/personen/person/?eid=8197"
   "Joshua Bachmeier":
     mail: "j.bachmeier@fzi.de"
-    link: ""
+    link: "https://www.fzi.de/team/joshua-bachmeier/"
   "Dirk Beyer":
     link: "https://www.sosy-lab.org/people/beyer/"
   "Bernhard Beckert":
@@ -24,49 +24,49 @@ persons:
     link: "https://formal.iti.kit.edu/beckert"
   "Tabea Bordis":
     mail: "tabea.bordis@kit.edu"
-    link: ""
+    link: "https://tva.kastel.kit.edu/english/team_bordis.php"
   "Marvin Brieger":
     mail: "marvin.brieger@sosy.ifi.lmu.de"
-    link: ""
+    link: "https://www.sosy-lab.org/people/brieger/"
   "Richard Bubel":
     mail: "bubel@cs.tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_51008.en.jsp"
   "Julia Butte":
     mail: "uegqr@student.kit.edu"
     link: ""
   "Stijn de Gouw":
     mail: "sdg@ou.nl"
-    link: ""
+    link: "https://research.ou.nl/en/persons/stijn-de-gouw-2"
   "Daniel Drodt":
     mail: "daniel.drodt@tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_132224.en.jsp"
   "Henriette Färber":
     mail: "henriette.faerber@student.kit.edu"
     link: ""
   "George Granberry":
     mail: "george.granberry@gmail.com"
-    link: ""
+    link: "https://www.chalmers.se/en/persons/georgegr/"
   "Lukas Grätz":
     mail: "lukas.graetz@tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_96960.en.jsp"
   "Reiner Hähnle":
     mail: "reiner.haehnle@tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_30784.en.jsp"
   "Jonathan Hellwig":
     mail: "jonathan.hellwig@kit.edu"
     link: ""
   "Asmae Heydari Tabar":
     mail: "asmae.heydari-tabar@kit.edu"
-    link: ""
+    link: "https://tva.kastel.kit.edu/english/team_tabar.php"
   "Carlos Ignacio Isasa Martin":
     mail: "cisasa@ece.au.dk"
-    link: ""
+    link: "https://www.au.dk/en/cisasa@ece.au.dk"
   "Aditi Kabra":
     mail: "akabra@andrew.cmu.edu"
     link: "https://aditink.github.io/"
   "Eduard Kamburjan":
     mail: "eduard@ifi.uio.no"
-    link: ""
+    link: "https://edkamb.github.io/"
   "Philipp Kern":
     mail: "philipp.kern@kit.edu"
     link: "https://formal.iti.kit.edu/kern"
@@ -75,10 +75,10 @@ persons:
     link: "https://formal.iti.kit.edu/kirsten"
   "Jonas Klamroth":
     mail: "klamroth@fzi.de"
-    link: ""
+    link: "https://www.fzi.de/team/jonas-klamroth/"
   "Maximilian Kodetzki":
     mail: "maximilian.kodetzki@kit.edu"
-    link: ""
+    link: "https://tva.kastel.kit.edu/english/team_kodetzki.php"
   "Florian Lanzinger":
     mail: "lanzinger@kit.edu"
     link: "https://formal.iti.kit.edu/lanzinger"
@@ -93,7 +93,7 @@ persons:
     link: ""
   "Wojciech Mostowski":
     mail: "wojciech.mostowski@hh.se"
-    link: ""
+    link: "https://wiki.hh.se/ceres/index.php/Wojciech_Mostowski"
   "Joel Nyholm":
     mail: "joel.nyholm@hh.se"
     link: ""
@@ -103,7 +103,7 @@ persons:
   "Wolfram Pfeifer":
     mail: "wolfram.pfeifer@kit.edu"
     link: "https://formal.iti.kit.edu/pfeifer"
-  "Andre Platzer":
+  "André Platzer":
     mail: "platzer@kit.edu"
     link: "https://symbolaris.org"
   "Enguerrand Prebet":
@@ -114,25 +114,25 @@ persons:
     link: "https://longqianql.github.io/"
   "Marco Scaletta":
     mail: "scaletta@cs.tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_109120.en.jsp"
   "Ina Schaefer":
     mail: "ina.schaefer@kit.edu"
-    link: ""
+    link: "https://tva.kastel.kit.edu/english/team_schaefer.php"
   "Jonas Schiffl":
     mail: "jonas.schiffl@kit.edu"
     link: "https://formal.iti.kit.edu/schiffl"
   "Peter Schmitt":
     mail: "peter.schmitt@kit.edu"
-    link: ""
+    link: "https://formal.kastel.kit.edu/schmitt"
   "Anna Schmitt":
     mail: "Anna.Schmitt@tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_123072.en.jsp"
   "Guilherme Silva":
     mail: "alvares@chalmers.se"
-    link: ""
+    link: "https://www.chalmers.se/en/persons/alvares/"
   "Yong Kiam Tan":
     mail: "tanyongkiam@gmail.com"
-    link: ""
+    link: "https://tanyongkiam.github.io/"
   "Samuel Teuber":
     mail: "teuber@kit.edu"
     link: "https://formal.iti.kit.edu/teuber"
@@ -144,7 +144,7 @@ persons:
     link: "https://formal.iti.kit.edu/ulbrich"
   "Adele Veschetti":
     mail: "adele.veschetti@tu-darmstadt.de"
-    link: ""
+    link: "https://www.informatik.tu-darmstadt.de/se/gruppenmitglieder/groupmembers_detailseite_129664.en.jsp"
   "Alexander Weigl":
     mail: "weigl@kit.edu"
     link: "https://formal.iti.kit.edu/weigl"
