@@ -1,5 +1,5 @@
 ---
-author: "Organization by Jonas Schiffl"
+author: "Jonas Schiffl"
 title: "Paseo to Frauenalb"
 slot: 998
 type: social
