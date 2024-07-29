@@ -3,7 +3,7 @@ author: "Noah Abou El Wafa"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeYmaera Track"
 title: "Complete Game Logic with Sabotage"
-slot: 216
+slot: 213
 length: 30 
 order: 34
 ---

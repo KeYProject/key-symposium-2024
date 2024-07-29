@@ -3,7 +3,7 @@ author: "Long Qian"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeYmaera Track"
 title: "Axiomatization of Compact Initial Value Problems: Open Properties"
-slot: 215
+slot: 216
 length: 30 
 order: 40
 ---

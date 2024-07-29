@@ -3,7 +3,7 @@ author: "André Platzer"
 kind: "Regular Talk (20 min. + 10 min.)"
 track: "KeYmaera Track"
 title: "Differential Hybrid Games"
-slot: 213
+slot: 215
 length: 30
 order: 39
 ---
