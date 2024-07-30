@@ -76,6 +76,8 @@ C_KEYM = 'lightblue'
 define_slot(999, day0('12:35'), 60*5, C_SOCIAL)
 define_slot(998, day1('19:00'), 120,  C_SOCIAL)
 
+create_break('Dinner: Klosterschänke', day2('19:00'), 180)
+#
 create_break('Coffee Break', day1('10:30'), 30)
 create_break('Lunch', day1('12:30'), 30)
 create_break('Coffee Break', day1('15:30'), 30)
@@ -110,10 +112,12 @@ define_slot(113, day1('16:00'), 30)
 define_slot(114, LE, 30)
 define_slot(115, LE, 30)
 
-define_slot(219, day1('16:00'), 15)
+define_slot(215, day1('16:00'), 30)
 define_slot(214, LE, 30)
 define_slot(213, LE, 30)
-define_slot(215, LE, 30)
+define_slot(219, LE, 15)
+define_slot(220, LE, 15)
+
 
 #####################################
 define_slot(20, day2('09:00'), 60)
