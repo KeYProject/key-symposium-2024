@@ -1,5 +1,5 @@
 ---
-author: "Wolfgang Ahrendt"
+author: "Yong Kiam Tan"
 kind: "Short Talk (10 min. + 5 min.)"
 track: "KeYmaera Track"
 title: "The Last Mile in Trustworthy Automated Reasoning"
