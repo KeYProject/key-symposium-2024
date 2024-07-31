@@ -2,7 +2,7 @@
 author: Jasmin Blanchette
 kind: "Invited Talk (60 min.)"
 track: "Common Track"
-title: "Formalizing Saturation, Resolution, and Superposition in Isabelle/HOL"
+title: "Proving Properties of Provers"
 slot:  30
 length: 60
 type: invited
